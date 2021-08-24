@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: coral;
+
+}
+ .container{
+     width: 70%;
+     margin: 0 auto;
+ }
+
+ #header h1{
+     color: white;
+     font-family: sans-serif;
+     padding: 10px 0;
+ }
+
+ #navbar{
+     background-color:#555;
+    
+ }
+
+ #navbar ul li{
+ list-style-type: none;
+ display: inline;
+ }
+
+ #navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    display: inline-block; 
+    }
+
+#navbar ul li a:first-child {
+    padding-left: 0;
+}
+
+#showcase{
+ background-image: url(./pexels-dinesh-kartik-622049.jpg);
+ background-position: center left;
+ height: 300px;
+
+}
+
+#showcase h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#main {
+    color: #555;
+    margin-top: 30px;
+
+}
+
+#main h1{
+    margin-bottom: 20px;
+}
+
+.context{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.saidbar{
+    float: left;
+    width: 30%;
+    background-color: #555;
+    color: #fff;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    margin-top: 20px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+#footer{
+    background-color: #333;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 0
+}
